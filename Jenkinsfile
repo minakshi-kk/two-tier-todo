@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'shibilbasith11/two-tier-todo'
+        IMAGE_NAME = 'https://github.com/minakshi-kk/docker.git'
         REGISTRY_CREDENTIALS = 'dockerhub-creds'
     }
 
